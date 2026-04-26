@@ -26,3 +26,22 @@
     grid-template-columns: minmax(30ch, auto) 1fr;
   }
 }
+
+.layout {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+/* Left side: Episode list */
+.episodes {
+  width: 35%;
+  max-width: 300px;
+  border-right: 2px solid #ddd;
+  padding-right: 1rem;
+}
+
+.episode-details {
+  flex: 1;
+  padding-left: 1rem;
+}
